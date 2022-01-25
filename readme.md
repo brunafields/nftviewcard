@@ -3,7 +3,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 I change the desing to my aesthetic preference. 
 
-Build using HTML and CSS. 
+Built using HTML and CSS. 
 
 The images are from twitter @16pxl
 
