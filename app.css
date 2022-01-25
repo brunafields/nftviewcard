@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Prata&display=swap'); 
+
+* { 
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+:root { 
+    --main-bg: rgb(253,221,230); 
+    --card-bg: rgb(255,221,244); /*pink lace*/
+    --line:rgb(170,152,169); /*rose quartz*/
+
+}
+
+img { 
+    max-width: 100%;
+}
+
+ul { 
+    list-style-type: none;
+}
+
+p { 
+    font-weight: 100;
+    color: rgb(170,152,169);
+}  
+
+body { 
+    font-family: 'Prata', serif; 
+    font-size: 20px;
+    background-color: var(--main-bg); 
+    color: rgb(255,228,225);
+    padding: 1.25rem;
+}
+
+.container { 
+    padding: 1.25rem;
+    background-color: rgb(255,193,204);
+    border-radius: 0.5rem;
+}
+
+.container h2 { 
+    font-weight: 100;
+    font-size: 25px;
+    padding-bottom: 2rem;
+}
+
+.container p { 
+    padding-bottom: 0.5rem;
+}
+
+.container .main-img { 
+    position: relative;
+}
+
+.container ul  { 
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255,228,225);
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--line);
+}
+
+
+.container .avatar { 
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+    justify-content: start;
+}
+
+.container .avatar img { 
+    width: 2.5rem;
+    border: 1px solid rgb(255,228,225);
+    border-radius: 50%;
+}
+
+.container .avatar p { 
+    margin: 0.5rem;
+    color: rgb(255,228,225);
+}
+
+
+@media (min-width: 500px) { 
+    .container { 
+        width: 400px;
+        margin: 8rem auto;
+    }
+}
+
+
+
