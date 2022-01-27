@@ -5,7 +5,7 @@ I change the desing to my aesthetic preference ✨
 
 Built using HTML and CSS
 
-The images are from twitter @16pxl
+The main image and avatar are from twitter @16pxl
 
 
 
