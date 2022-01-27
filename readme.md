@@ -7,5 +7,7 @@ Built using HTML and CSS
 
 The main image and avatar are from twitter @16pxl
 
+https://nft-viewcard.netlify.app/
+
 
 
